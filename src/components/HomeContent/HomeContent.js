@@ -1,0 +1,24 @@
+import styles from "@/components/Footer/Footer.module.css"
+import Loading from "../Loading"
+
+const HomeContent = () =>{
+    return(
+<>
+<div className={styles.homeContent}>
+    {/* <!-- CARD DE LISTA DE JOGOS --> */}
+    <div className={styles.listGamesCard}>
+        <div className="title">
+            <h2>Lista de jogos</h2>
+        </div>
+        {/* <!-- No React inserir o outro componente Loading aqui: */}
+        <Loading/>
+        <div className={styles.games} id="games">
+            {/* <!-- Lista de jogos irá aqui --> */}
+        </div>
+    </div>
+</div>
+</>
+);
+};
+
+export default HomeContent
