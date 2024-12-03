@@ -1,0 +1,11 @@
+.editContent {
+      width: 40%;
+      padding: 2rem;
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      margin-top: 5rem;
+      margin-bottom: 4rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px 0 var(--primary-alpha);
+      border: solid 1px var(--primary-color);
+}

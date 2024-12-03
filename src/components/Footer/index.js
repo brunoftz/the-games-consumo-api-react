@@ -5,8 +5,6 @@ const Footer = () => {
     <>
       <footer>
         <div className={styles.footerContent}>
-            <p>Rodapé</p>
-        </div>
         <div cassName={styles.footerLeft}>
           <ul className={styles.footerItems}>
             <li>Português (Brasil)</li>
@@ -22,6 +20,7 @@ const Footer = () => {
             <li>The games &copy; 2024</li>
           </ul>
         </div>
+      </div>
       </footer>
     </>
   );

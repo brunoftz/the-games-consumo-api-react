@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import CreateContent from "@/components/CreateContent";
+import EditGame from "@/components/Edit";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import Head from "next/head";
@@ -17,12 +17,12 @@ export default function Homepage() {
             <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main>
-                <Menu/>
+                <Menu />
                 <Container>
-                    <CreateContent/>
+                <EditGame />
                 </Container>
-            </main>
-            <Footer/>
+                <Footer />
+      </main>
         </>
     )
 }

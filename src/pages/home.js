@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 import Footer from "@/components/Footer"
-import HomeContent from "@/components/HomeContent/HomeContent"
-import Menu from "@/components/Menu/Menu"
+import HomeContent from "@/components/HomeContent"
+import Menu from "@/components/Menu"
 import Head from "next/head"
 
 export default function Homepage() {
@@ -21,8 +21,9 @@ export default function Homepage() {
                 <Container>
                     <HomeContent />
                 </Container>
-            </main>
             <Footer />
+            
+            </main>
             </>
     );
 };
